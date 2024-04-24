@@ -1,5 +1,5 @@
-os
-json
 requests
 telebot
+faker
 Flask
+bs4
