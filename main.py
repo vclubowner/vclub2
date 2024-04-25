@@ -342,7 +342,7 @@ Counrty -> {country} - {country_flag}
 - - - - - - - - - - - - - - - - - - - - - - -
 Dev : @vclub_own8r
 Taken {"{:.1f}".format(execution_time)} secounds .</b>'''
-					if 'Donation Confirmation' in last or 'This page doesn't seem to exist' in last:
+					if  'Donation Confirmation'  in last or  'This page doesn t seem to exist'  in last:
 						ch += 1
 						bot.send_message(call.from_user.id, msg)
 					elif "funds" in last:
